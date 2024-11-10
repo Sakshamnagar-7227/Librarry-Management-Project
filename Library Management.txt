@@ -1,0 +1,38 @@
+### Project Name - Library Management
+ This project is made for the use of Libraries which allows you to:-
+
+###Features:
+-Manage Books
+-Manage Students
+-Data is stored in Binary Files.
+
+### Usage Guide
+
+The system offers several functionalities:
+
+1. Add Book: Add a new book to the system.
+2. Display Books Information: View information on all books.
+3. Delete Book Information: Remove a book entry.
+4. Search Book: Find a book by its ID.
+5. Student Info: View student details.
+6. Issue Book: Issue a book to a student.
+7. Add Student: Add a new student to the system.
+8. Return Book: Manage book returns and handle fines for late returns.
+9. View Fine: Check a student’s outstanding fines.
+10. Clear Fine: Clear a student's fine after payment.
+
+Follow the on-screen instructions in the program to use each feature.
+
+### Additional Notes
+
+- Data Files: The program uses binary files (`Book.bin`, `Student.bin`) to store book and student data. Ensure these files are present in the project directory.
+- Permissions: Check file permissions if any error occurs while reading or writing data.
+
+### Troubleshooting
+
+If you encounter issues while installing or running the program, try the following:
+
+- Ensure the C compiler is correctly installed and accessible in your system's PATH.
+- Run the commands with the appropriate permissions if required (e.g., `sudo` on Linux).
+------
+This should help users set up and run the Library Management System easily. Let me know if you'd like any adjustments to this guide!
